@@ -7,7 +7,7 @@ fetch('/wp-json/wp/v2/pages/250')
 fetch('/wp-json/wp/v2/posts/250')
 ```
 
-Browser automatically send a `referrer` header when any request is made from the browser, so as long as you are making the request from the same domain as where Wordpress is hosted it will work.
+Browsers automatically send a `referrer` header when any request is made from the browser, so as long as you are making the request from the same domain as where Wordpress is hosted it will work.
 
 ## Caveats
 
