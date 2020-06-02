@@ -15,4 +15,4 @@ If you need to make requests for draft posts and pages where the `referrer` does
 
 If you need to make requests for draft posts and pages from a server where a `referrer` is not sent, you could always fork this plugin and customise but i recommend just sending Basic authentication header with an admin username:password from Wordpress since server requests are not exposed like client and browser requests are.
 
-Remember, it requires a `referrer` header, so visiting `/wp-json/wp/v2/pages/250` directly in the browser *will not work*. You have to actually do a `fetch()` request in via Javascript to test.
+Remember, it requires a `referrer` header, so visiting `/wp-json/wp/v2/pages/250` directly in the browser _will not work_. You have to actually do a `fetch()` request in via Javascript to test.
