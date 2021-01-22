@@ -5,7 +5,7 @@
  * Version: 1.0.0
  * Plugin URI: https://github.com/wp-kit/wp-rest-api-allow-drafts
  * Description: Allows draft posts and pages to come through into WP Rest Api when requesting for single draft posts and pages by id when the referrer host name matches the home url
- * Author: Creative Little Dots & WPKit
+ * Author: WPKit
  */
 	
 add_action('rest_api_init', function() {
